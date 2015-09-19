@@ -1,6 +1,6 @@
 <?php
 /**
- * Calm Header
+ * header template
  */
 ?>
 

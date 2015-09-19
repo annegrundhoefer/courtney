@@ -54,6 +54,7 @@
 
 			<div class="logo animated flipInX">
 
+
 				<?php 
 
 				if (function_exists('calm_get_data')) {
@@ -67,17 +68,7 @@
 	      <?php } ?>
 
       </div>
-
-			<nav>
-				<?php wp_nav_menu(array(
-            'theme_location'	=> 'main_menu',
-            'menu'					=> 'Main',
-            'container'			=> false,
-            'menu_class'		=> 'main-nav animated flipInX delay1'
-          )); ?>
-			</nav>
-
-			<?php if (calm_get_data('footer_social')) : ?>
+      <?php if (calm_get_data('footer_social')) : ?>
 				<ul class="social animated flipInX delay2">
 					<?php if (calm_get_data('footer_fb')) : ?>
 						<li><a href="<?php echo calm_get_data('footer_fb'); ?>" target="_blank"><i class="icon-facebook"></i></a></li>
@@ -115,6 +106,17 @@
 				</ul>
 			<?php endif; ?>
 
+
+			<nav>
+				<?php wp_nav_menu(array(
+            'theme_location'	=> 'main_menu',
+            'menu'					=> 'Main',
+            'container'			=> false,
+            'menu_class'		=> 'main-nav animated flipInX delay1'
+          )); ?>
+			</nav>
+
+			
 			<?php if (calm_get_data('copyright')) : ?>
 				<span class="copy animated flipInX delay3"><?php echo calm_get_data('copyright'); ?></span>
 			<?php endif; ?>

@@ -80,37 +80,37 @@
 			<?php if (calm_get_data('footer_social')) : ?>
 				<ul class="social animated flipInX delay2">
 					<?php if (calm_get_data('footer_fb')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_fb'); ?>"><i class="icon-facebook"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_fb'); ?>" target="_blank"><i class="icon-facebook"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_twitter')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_twitter'); ?>"><i class="icon-twitter"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_twitter'); ?>" target="_blank"><i class="icon-twitter"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_pinterest')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_pinterest'); ?>"><i class="icon-pinterest"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_pinterest'); ?>" target="_blank"><i class="icon-pinterest"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_instagram')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_instagram'); ?>"><i class="icon-instagram"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_instagram'); ?>" target="_blank"><i class="icon-instagram"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_plus')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_plus'); ?>"><i class="icon-google-plus"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_plus'); ?>" target="_blank"><i class="icon-google-plus"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_feed')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_feed'); ?>"><i class="icon-feed-2"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_feed'); ?>" target="_blank"><i class="icon-feed-2"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_youtube')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_youtube'); ?>"><i class="icon-youtube"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_youtube'); ?>" target="_blank"><i class="icon-youtube"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_vimeo')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_vimeo'); ?>"><i class="icon-vimeo"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_vimeo'); ?>" target="_blank"><i class="icon-vimeo"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_flickr')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_flickr'); ?>"><i class="icon-flickr-2"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_flickr'); ?>" target="_blank"><i class="icon-flickr-2"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_dribbble')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_dribbble'); ?>"><i class="icon-dribbble"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_dribbble'); ?>" target="_blank"><i class="icon-dribbble"></i></a></li>
 					<?php endif ;?>
 					<?php if (calm_get_data('footer_blogger')) : ?>
-						<li><a href="<?php echo calm_get_data('footer_blogger'); ?>"><i class="icon-blogger"></i></a></li>
+						<li><a href="<?php echo calm_get_data('footer_blogger'); ?>" target="_blank"><i class="icon-blogger"></i></a></li>
 					<?php endif ;?>
 				</ul>
 			<?php endif; ?>

@@ -1011,13 +1011,13 @@ table#wp-calendar td {
   color: #666;
 }
 .wpcf7-form input:focus, .wpcf7-form textarea:focus {
-  background: #e74b43;
+  background: #6f5fba;
   outline: none;
   color: #fff;
 }
 .wpcf7-form input.wpcf7-submit, .wpcf7-form textarea.wpcf7-submit {
-  background: #333;
-  color: #e74b43;
+  background: #6f5fba;
+  color: #fff;
   padding: 20px;
   font-family: Montserrat, sans-serif;
   font-size: 12px;

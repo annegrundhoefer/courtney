@@ -95,9 +95,15 @@
 						$terms = get_the_term_list( $post->ID, 'port-cat', '', ',  ', '' );
 						$terms = strip_tags( $terms );
 
+						$categories = get_the_category();
+
+						$terms = preg_replace("/[\s-]+/", " ", $terms);
+					    //Convert whitespaces and underscore to dash
+					    $terms = preg_replace("/[\s_]/", "-", $terms);
+					    // return $terms;
 						?>
 
-						<div class="item <?php echo $list_cats . ' ' . calm_get_data('port_columns'); ?>">
+						<div class="item <?php echo  $terms . ' ' . calm_get_data('port_columns'); ?>">
 
 							<div class="img-container">
 
